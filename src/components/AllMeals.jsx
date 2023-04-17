@@ -21,7 +21,7 @@ const AllMeals = () => {
     });
   };
   return (
-    <div>
+    <div className="mx-5">
       <input onChange={handleChange} value={searchTerm.query} type="search" />
       <ul>
         {searchTerm.query === ""
